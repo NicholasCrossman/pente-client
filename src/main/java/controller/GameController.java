@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class GameController implements GameListener{
     private GameFrame g;
     private Client client;
-    private String url = "http://152.117.176.5:5004";
+    private String url = "http://127.0.0.1:5004";
     private String userName;
     private int userNumber;
     private String gameID;

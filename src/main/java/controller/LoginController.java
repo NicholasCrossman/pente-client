@@ -16,7 +16,7 @@ import java.util.concurrent.Future;
 public class LoginController implements LoginListener {
     Client client;
     LoginFrame frame;
-    String url = "http://152.117.176.5:5004";
+    String url = "http://127.0.0.1:5004";
     WelcomeController welcome;
 
     public LoginController(Client c,WelcomeController w) {

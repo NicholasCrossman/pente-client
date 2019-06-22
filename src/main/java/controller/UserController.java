@@ -14,7 +14,7 @@ public class UserController implements UserListener{
     UserFrame frame;
     String userName;
     Client client;
-    String url = "http://152.117.176.5:5004";
+    String url = "http://127.0.0.1:5004";
 
     public UserController(Client client, String userName) {
         frame = new UserFrame();

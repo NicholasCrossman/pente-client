@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 import java.util.concurrent.Future;
 
 public class JoinGameController implements JoinGameListener {
-    private String url = "http://152.117.176.5:5004";
+    private String url = "http://127.0.0.1:5004";
     private Client client;
     private String userName;
     private JoinGameFrame frame;

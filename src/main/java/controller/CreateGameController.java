@@ -15,7 +15,7 @@ import java.util.concurrent.Future;
 public class CreateGameController implements CreateGameListener {
     CreateGameFrame cgf;
     Client client;
-    String url = "http://152.117.176.5:5004";
+    String url = "http://127.0.0.1:5004";
     String userName;
     boolean publicVisibility = true;
     UserController userController;
